@@ -7,6 +7,6 @@ RUN mkdir /code
 
 WORKDIR /code
 COPY requirements.txt /code/
-RUN pip install -r requirements.txt && pip install Django pytest-django
+RUN pip install -r requirements.txt
 
 COPY . /code/
